@@ -20,13 +20,6 @@ body {
   color: #000;
 }
 
-/* input,
-button,
-textarea,
-select {
-  font-family: inherit;
-} */
-
 a,
 button {
   cursor: pointer;
@@ -64,12 +57,13 @@ HEADER
   padding: 13px 0;
 }
 
-.header p {
+.header__logo  {
   font-family: "Tourney", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 22px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .header__navigation {
@@ -87,6 +81,10 @@ HEADER
   font-style: normal;
   font-size: 22px;
   letter-spacing: 0.48px;
+}
+
+.header a {
+  text-decoration: none;
 }
 
 /* 
